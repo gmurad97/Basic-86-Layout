@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #FFFFFF;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Georgia", serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 25px 0px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+.logo > p:nth-child(1){
+    color: #C0BAB6;
+    font-size: 36px;
+}
+
+.logo > p:nth-child(2){
+    color: #C0BAB6;
+    font-size: 13px;
+}
+
+.menu{
+    background-color: #232323;
+    margin-right: 150px;
+}
+
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    list-style-type: none;
+    font-size: 13px;
+    padding: 0px 20px;
+}
+
+.menu > ul > li{
+    padding: 20px 0px;
+    margin-right: 25px;
+}
+
+.menu > ul > li:last-child{
+    margin-right: 0px;
+}
+
+.menu > ul > li > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #C0BAB6;
+}
+
+.menu > ul > li > a:hover{
+    color: #FF9900;
+}
+
+main{
+    margin: 30px 150px;
+}
+
+.level-one-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.level-one-left-block{
+    display: flex;
+    flex-direction: column;
+    background-color: #DEDEDE;
+    min-width: 300px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.level-one-left-block > h2{
+    font-size: 42px;
+    font-weight: normal;
+    font-style: italic;
+    color: #979797;
+}
+
+.level-one-left-block > p{
+    font-size: 13px;
+    line-height: 1.6em;
+    color: #979797;
+    margin-top: 20px;
+}
+
+.level-one-left-block > a{
+    font-size: 13px;
+    color: #FF9900;
+    text-align: right;
+    text-decoration: none;
+}
+
+.level-two-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.level-two-img{
+    float: left;
+}
+
+.level-three-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
